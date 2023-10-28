@@ -1,0 +1,33 @@
+/* h3{
+    color: green;
+}              
+                TYPE SELECTOR 
+h4,h5{
+    color: orchid;
+} */
+            /* GROUP SELECTORS */
+
+*{
+    color: sienna;
+}
+           /* UNIVERSAL SELECTORS */
+
+div>p{
+    color: green;
+}
+           /* CHILD SELECTOR */
+
+div a{
+    color: blue;
+}
+         /* DESCANDANT SELECTOR */
+
+h1~h4{
+    color: blueviolet;
+}
+          /* SIBLING SELECTOR */
+
+h1+h2{
+    color: black;
+}
+        /* ADJACENT SIBLING SELECTOR */
